@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/kratosgado/projects/c++/tic-tac-toe-cpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/tic.dir/TicTacToe.cpp.o -c /home/kratosgado/projects/c++/tic-tac-toe-cpp/TicTacToe.cpp",
+  "file": "/home/kratosgado/projects/c++/tic-tac-toe-cpp/TicTacToe.cpp",
+  "output": "CMakeFiles/tic.dir/TicTacToe.cpp.o"
+},
+{
+  "directory": "/home/kratosgado/projects/c++/tic-tac-toe-cpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/tic.dir/main.cpp.o -c /home/kratosgado/projects/c++/tic-tac-toe-cpp/main.cpp",
+  "file": "/home/kratosgado/projects/c++/tic-tac-toe-cpp/main.cpp",
+  "output": "CMakeFiles/tic.dir/main.cpp.o"
+}
+]

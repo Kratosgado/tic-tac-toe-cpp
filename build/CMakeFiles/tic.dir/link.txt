@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/tic.dir/TicTacToe.cpp.o CMakeFiles/tic.dir/main.cpp.o -o tic  -lsfml-graphics -lsfml-window -lsfml-system 

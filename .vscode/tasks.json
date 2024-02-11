@@ -1,0 +1,44 @@
+{
+   "tasks": [
+      {
+         "type": "cppbuild",
+         "label": "C/C++: g++ build active file",
+         "command": "/usr/bin/g++",
+         
+         "args": [
+            "-fdiagnostics-color=always",
+            "-g",
+            "${fileDirname}/*.cpp",
+            "-o",
+            "${fileDirname}/${fileBasenameNoExtension}",
+            "-lsfml-graphics",
+            "-lsfml-window",
+            "-lsfml-system",
+         ],
+         "options": {
+            "cwd": "/usr/bin"
+         },
+         "problemMatcher": [
+            "$gcc"
+         ],
+         "group": {
+            "kind": "build",
+            "isDefault": true
+         },
+         "detail": "Build executable for cpp."
+      },
+      {
+         "type": "process",
+         "label": "delete executable",
+         "command": "rm",
+         "args": [
+            "${fileDirname}/${fileBasenameNoExtension}"
+         ],
+         "options": {
+            "cwd": "${fileDirname}"
+         },
+         "detail": "Deletes executable created when building program"
+      }
+   ],
+   "version": "2.0.0"
+}
